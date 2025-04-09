@@ -1,0 +1,168 @@
+:root {
+    --bs-color:#844729;
+    --bs-backgroundcolor: #F3C2A2;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+/* Navabar */
+.navbar{
+    background: var(--bs-backgroundcolor);
+    height: 65px;
+    width: 100%;
+    font-family: "IBM",sans-serif;
+    text-decoration: underline;
+    display: flex;
+    justify-content: center;
+    text-align: end;
+    position: fixed;
+    z-index: 100;
+}
+
+.text{
+    color: var(--bs-color);
+}
+
+/* 1er section */
+.principal{
+    display: flex;
+    padding-top: 100px;
+} 
+
+/* Adresse */
+.image{
+    position: relative; /* Nécessaire pour positionner le texte par-dessus l'image */
+    color: var(--bs-color); /* Couleur du texte */
+} 
+
+.adresse {
+    position: absolute; /* Positionner le texte par-dessus l'image */
+    top: 15%; /* Centrer verticalement */
+    right: 15%; /* Centrer horizontalement */
+    transform: translate(-30%, -30%); /* Ajuster le centrage */
+    text-align: center;
+    }
+
+.adresse h2{
+    font-family: "Roboto", sans-serif;
+}
+
+.adresse p{
+    font-family: "Roboto", sans-serif;
+    padding-top: 20%;
+    }
+
+    /* Photo*/
+
+.photo{
+    margin-left: -20%;
+    width: 150%;
+} 
+
+.photo img {
+    max-width: 100%; 
+    height: auto; 
+}
+
+    /* Information */
+
+.info{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 100%;
+    font-size: 1.5em;
+    font-family: "Roboto", sans-serif;
+    padding-bottom: 15%;
+}
+
+#talkbubble {
+    width: 320px;
+    height: 150px;
+    margin-left: 33%;
+    background: rgba(218, 24, 24, 0.877);
+    position: relative;
+    -moz-border-radius: 15px;
+    -webkit-border-radius: 15px;
+    border-radius: 15px;
+}
+
+#talkbubble:before {
+    content: "";
+    position: absolute;
+    right: 100%;
+    top: 35px;
+    width: 0;
+    height: 0;
+    border-top: 15px solid transparent;
+    border-right: 26px solid rgba(218, 24, 24, 0.877);
+    border-bottom: 15px solid transparent;
+}
+
+/* 2ème section */
+    .second{
+    display: flex;
+    margin-top: 5%;
+}
+
+.texte {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    font-size: 1.5em;
+    font-family: "Roboto", sans-serif;
+    color: var(--bs-color);
+    /* background: linear-gradient(130deg, #FAACA8 10%, #edb072 50%, #e4bfbf 90%); */
+}
+
+.image2{
+    display: flex;
+} 
+
+/*Stylisé la section évènements*/
+#evenement h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+    font-family: "Karla", sans-serif;
+    text-decoration: underline 2px;
+    color: var(--bs-color);
+}
+
+.card-group .card {
+    min-height: 400px;
+    max-width: 350px;
+}
+
+.card-group{
+    gap: 5%;
+    justify-content: center;
+}
+
+/* FOOTER */
+footer{
+    position: relative;
+    padding-top: 50px;
+}
+
+.footer{
+    display: flex;
+    background: var(--bs-backgroundcolor);
+    text-align: center;
+    justify-content: center;
+    font-size: 1em;
+    gap: 50px;
+    padding: 2%;
+}
+
+footer a{
+    color: var(--bs-color);
+    font-family: "IBM",sans-serif;
+    text-decoration: underline;
+} 

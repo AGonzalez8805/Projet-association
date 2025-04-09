@@ -1,0 +1,52 @@
+:root {
+    --bs-color:#844729;
+    --bs-backgroundcolor: #F3C2A2;
+  }
+  
+  *{
+    margin: 0;
+    padding: 0;
+  }
+  /* Navabar */
+  .navbar{
+    background: var(--bs-backgroundcolor);
+    height: 65px;
+    width: 100%;
+    font-family: "IBM",sans-serif;
+    text-decoration: underline;
+    display: flex;
+    justify-content: center;
+    text-align: end;
+    position: fixed;
+    z-index: 100;
+  }
+  
+  .text{
+    color: var(--bs-color);
+  }
+  
+
+/* FOOTER */
+footer{
+    display: flex;
+    position: relative;
+    padding-top: 50px;
+    
+}
+
+.footer{
+    display: flex;
+    background: var(--bs-backgroundcolor);
+    text-align: center;
+    justify-content: center;
+    font-size: 1em;
+    gap: 50px;
+    padding: 2%;
+}
+
+footer a{
+    color: var(--bs-color);
+    font-family: "IBM",sans-serif;
+    text-decoration: underline;
+} 
+

@@ -1,0 +1,105 @@
+:root {
+    --bs-color:#844729;
+    --bs-backgroundcolor: #F3C2A2;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+/* Navabar */
+.navbar{
+    background: var(--bs-backgroundcolor);
+    height: 65px;
+    width: 100%;
+    font-family: "IBM",sans-serif;
+    text-decoration: underline;
+    display: flex;
+    justify-content: center;
+    text-align: end;
+    position: fixed;
+    z-index: 100;
+}
+
+.text{
+    color: var(--bs-color);
+}
+
+
+.mentions{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    font-family: "Karla", sans-serif;
+    text-decoration: underline 2px;
+    padding-top: 100px; /* espacement entre la nav et le titre*/
+}
+
+.mentionsLegales{
+    display: flex;
+    width: 100%;
+}
+.legales{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    margin: 0 5% 0 5%;
+    font-size: 1rem;
+}
+
+.image2{
+    display: flex;
+}
+.article{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 2% 10% 0 10%;
+}
+
+h4{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    text-decoration: underline;
+    font-family: "Roboto", sans-serif;
+}
+
+h6{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-weight: bold;
+}
+
+p{
+    display: flex;
+}
+
+/* FOOTER */
+footer{
+    display: flex;
+    position: relative;
+    padding-top: 50px;
+    
+}
+
+.footer{
+    display: flex;
+    background: var(--bs-backgroundcolor);
+    text-align: center;
+    justify-content: center;
+    font-size: 1em;
+    gap: 50px;
+    padding: 2%;
+}
+
+footer a{
+    color: var(--bs-color);
+    font-family: "IBM",sans-serif;
+    text-decoration: underline;
+} 
+
